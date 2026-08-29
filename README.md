@@ -7,7 +7,7 @@ Un'applicazione web vetrina e ricettario per una pasticceria artigianale, proget
 ## 🚀 Demo Live
 
 Puoi visualizzare il sito web live al seguente indirizzo:  
-👉 **[https://Ra1z3n00.github.io/pasticceria/](https://Ra1z3n00.github.io/pasticceria/)**  
+👉 **[https://ra1z3n00.github.io/Il-Dolce-Mondo-delle-Ricette/](https://ra1z3n00.github.io/Il-Dolce-Mondo-delle-Ricette/)**  
 
 ---
 
