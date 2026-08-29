@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Pasticceria - Le Nostre Ricette</title>
-    
 </head>
 <body>
 
@@ -15,180 +15,182 @@
 
     <div class="container">
         <aside>
-            <!-- Mostrato solo su MOBILE/TABLET (usando details) -->
+            <!-- Menu MOBILE -->
             <details class="mobile-menu">
                 <summary>Categorie</summary>
                 <ul class="font-list"> 
-                <li><a href="about:blank" target="_blank">Pasticcini</a></li>
-                <li><a href="about:blank" target="_blank">Torte</a></li>
-                <li><a href="about:blank" target="_blank">Creme</a></li>
-                <li><a href="about:blank" target="_blank">Biscotti</a></li>
-                <li><a href="about:blank" target="_blank">Creazioni Stagionali</a></li>
-                <li><a href="about:blank" target="_blank">Drinks</a></li>
+                    <li><a href="#" data-category="all" class="filter-btn active">Tutti</a></li>
+                    <li><a href="#" data-category="pasticcini" class="filter-btn">Pasticcini</a></li>
+                    <li><a href="#" data-category="colazione" class="filter-btn">Colazione</a></li>
+                    <li><a href="#" data-category="torte" class="filter-btn">Torte</a></li>
+                    <li><a href="#" data-category="creme" class="filter-btn">Creme</a></li>
+                    <li><a href="#" data-category="biscotti" class="filter-btn">Biscotti</a></li>
+                    <li><a href="#" data-category="drinks" class="filter-btn">Drinks</a></li>
                 </ul>
             </details>
 
-            <!-- Mostrato solo su DESKTOP -->
+            <!-- Menu DESKTOP -->
             <div class="desktop-menu">
                 <h2>Categorie</h2>
                 <ul class="font-list"> 
-                <li><a href="about:blank" target="_blank">Pasticcini</a></li>
-                <li><a href="about:blank" target="_blank">Torte</a></li>
-                <li><a href="about:blank" target="_blank">Creme</a></li>
-                <li><a href="about:blank" target="_blank">Biscotti</a></li>
-                <li><a href="about:blank" target="_blank">Creazioni Stagionali</a></li>
-                <li><a href="about:blank" target="_blank">Drinks</a></li>
+                    <li><a href="#" data-category="all" class="filter-btn active">Tutti</a></li>
+                    <li><a href="#" data-category="pasticcini" class="filter-btn">Pasticcini</a></li>
+                    <li><a href="#" data-category="colazione" class="filter-btn">Colazione</a></li>
+                    <li><a href="#" data-category="torte" class="filter-btn">Torte</a></li>
+                    <li><a href="#" data-category="creme" class="filter-btn">Creme</a></li>
+                    <li><a href="#" data-category="biscotti" class="filter-btn">Biscotti</a></li>
+                    <li><a href="#" data-category="drinks" class="filter-btn">Drinks</a></li>
                 </ul>
             </div>
         </aside>
 
         <main>
             <div class="grid">
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="torte">
                     <div class="icon-card">
                         <img src="imgs/tiramisu.jpg" alt="tiramisu">
                         <span>Tiramisu</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="colazione">
                     <div class="icon-card">
                         <img src="imgs/crepes.jpg" alt="crepes">
                         <span>Crepes</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="colazione">
                     <div class="icon-card">
                         <img src="imgs/frittelle.jpg" alt="frittelle">
                         <span>Frittelle</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="torte">
                     <div class="icon-card">
                         <img src="imgs/crostata.jpg" alt="crostata">
                         <span>Crostata</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="colazione">
                     <div class="icon-card">
                         <img src="imgs/muffin.jpg" alt="Muffin">
                         <span>Muffin</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="torte">
                     <div class="icon-card">
                         <img src="imgs/ciambella.jpg" alt="ciambella">
                         <span>Ciambella</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="biscotti">
                     <div class="icon-card">
                         <img src="imgs/salcioccolato.jpg" alt="salame al cioccolato">
                         <span>Salame al Cioccolato</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/cannolo.jpeg" alt="Cannolo">
                         <span>Cannolo</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/eclair.jpg" alt="Eclair">
                         <span>Éclair</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/bigne.jpg" alt="Bignè">
                         <span>Bignè</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="torte">
                     <div class="icon-card">
                         <img src="imgs/cheesecake.jpg" alt="cheesecake">
                         <span>Cheesecake</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="torte">
                     <div class="icon-card">
                         <img src="imgs/tortaparadiso.jpg" alt="torta paradiso">
                         <span>Torta Paradiso</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="torte">
                     <div class="icon-card">
                         <img src="imgs/tortafiesta.jpg" alt="torta fiesta">
                         <span>Torta Fiesta</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="creme">
                     <div class="icon-card">
                         <img src="imgs/zabaione.jpg" alt="Zabaione">
                         <span>Zabaione</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="torte">
                     <div class="icon-card">
                         <img src="imgs/tortamele.jpg" alt="torta di mele">
                         <span>Torta di Mele</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/tartufi.jpg" alt="Tartufi">
                         <span>Tartufi</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/praline.jpg" alt="praline">
                         <span>Praline</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/baba.jpg" alt="baba">
                         <span>Babà</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/meringa.jpg" alt="meringa">
                         <span>Meringa</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/profiterole.jpg" alt="profiterole">
                         <span>Profiterole</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/diplomatica.jpg" alt="diplomatica">
                         <span>Diplomatica</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/sfogliatelle.jpg" alt="sfogliatelle">
                         <span>Sfogliatelle</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/testemoro.jpg" alt="teste di moro">
                         <span>Teste di Moro</span>
                     </div>
                 </a>
-                <a href="about:blank" target="_blank">
+                <a href="about:blank" target="_blank" data-category="pasticcini">
                     <div class="icon-card">
                         <img src="imgs/tartella.jpeg" alt="Tartella">
                         <span>Tartella</span>
                     </div>
                 </a>
-                </div>
+            </div>
         </main>
     </div>
 

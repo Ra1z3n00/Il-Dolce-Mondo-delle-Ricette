@@ -62,6 +62,10 @@ aside a {
     font-weight: 900;
     transition: color 0.3s;
 }
+aside a.active {
+    color: #eec590;
+    text-decoration: none;
+}
 aside a:hover {
     color: #eec590;
 }
