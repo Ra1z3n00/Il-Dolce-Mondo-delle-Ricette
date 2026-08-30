@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Risaliamo di un livello per raggiungere style.css -->
+    <link rel="stylesheet" href="../style.css">
+    <title>Contatti - Pasticceria Le Nostre Ricette</title>
+</head>
+<body>
+
+    <header>
+        <h1>Il Dolce Mondo delle Ricette</h1>
+    </header>
+
+    <div class="container">
+        <main class="recipe-detail">
+            <!-- Pulsante per tornare alla Home -->
+            <a href="../index.html" class="back-btn">&larr; Torna alla Home</a>
+
+            <!-- Intestazione Pagina -->
+            <div class="recipe-header">
+                <h1>Mettiti in Contatto con Noi</h1>
+                <p class="recipe-description">
+                    Hai domande su una ricetta, proposte di collaborazione o desideri semplicemente lasciarci un feedback? Scrivici un messaggio: saremo felicissimi di risponderti!
+                </p>
+            </div>
+
+            <div class="recipe-body">
+                <!-- Sezione Dettagli e Modulo -->
+                <section class="recipe-section">
+                    <h2>Scrivici un Messaggio</h2>
+                    
+                    <form action="#" method="post" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
+                        <div style="display: flex; flex-direction: column; gap: 0.3rem;">
+                            <label for="nome" style="font-weight: bold; color: #5c3818;">Nome e Cognome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="Inserisci il tuo nome" required style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 6px; font-family: inherit;">
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; gap: 0.3rem;">
+                            <label for="email" style="font-weight: bold; color: #5c3818;">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="la-tua-email@esempio.it" required style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 6px; font-family: inherit;">
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; gap: 0.3rem;">
+                            <label for="oggetto" style="font-weight: bold; color: #5c3818;">Oggetto:</label>
+                            <input type="text" id="oggetto" name="oggetto" placeholder="Es. Informazioni su una ricetta" required style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 6px; font-family: inherit;">
+                        </div>
+
+                        <div style="display: flex; flex-direction: column; gap: 0.3rem;">
+                            <label for="messaggio" style="font-weight: bold; color: #5c3818;">Messaggio:</label>
+                            <textarea id="messaggio" name="messaggio" rows="5" placeholder="Scrivi qui il tuo messaggio..." required style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 6px; font-family: inherit; resize: vertical;"></textarea>
+                        </div>
+
+                        <button type="submit" class="back-btn" style="border: none; cursor: pointer; font-size: 1rem; width: fit-content;">Invia Messaggio</button>
+                    </form>
+                </section>
+
+                <!-- Sezione Informazioni Utili -->
+                <section class="recipe-section">
+                    <h2>Recapiti Diretti</h2>
+                    <ul class="ingredients-list">
+                        <li><strong>Indirizzo Laboratorio:</strong> Via dei Dolci 12, 00100 Roma (RM)</li>
+                        <li><strong>Email Info & Supporto:</strong> info&supporto@lenostrericette.it</li>
+                        <li><strong>Telefono:</strong> +39 06 12345678</li>
+                        <li><strong>Orari di Apertura:</strong> Dal Lunedì al Sabato (09:30 - 18:30)</li>
+                    </ul>
+                </section>
+
+                <!-- Note / Socal Networks -->
+                <section class="recipe-section notes-card">
+                    <h2>💡 Seguici sui Social!</h2>
+                    <p>
+                        Rimani aggiornato sulle ultime dolci creazioni, i video tutorial e i segreti della pasticceria seguendo i nostri canali social ufficiali su <strong>Instagram</strong>, <strong>Facebook</strong> e <strong>YouTube</strong>.
+                    </p>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="chi_siamo.html">Chi Siamo</a>
+                <a href="contatti.html">Contatti</a>
+                <a href="termini.html">Termini di Servizio</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <p>&copy; 2026 Pasticceria Artigianale. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

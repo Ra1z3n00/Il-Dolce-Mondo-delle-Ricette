@@ -3,9 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Risaliamo di un livello per raggiungere style.css -->
+    <link rel="stylesheet" href="../style.css">
+    <title>Tiramisù - Pasticceria Le Nostre Ricette</title>
 </head>
 <body>
-    <p>prova</p>
+
+    <header>
+        <h1>Il Dolce Mondo delle Ricette</h1>
+    </header>
+
+    <div class="container">
+        <main class="recipe-detail">
+            <!-- Pulsante per tornare alla Home -->
+            <a href="../index.html" class="back-btn">&larr; Torna a tutte le ricette</a>
+
+            <!-- Intestazione Ricetta -->
+            <div class="recipe-header">
+                <h1>Tiramisù Traditional Classico</h1>
+                <p class="recipe-description">
+                    Il dessert italiano al cucchiaio più famoso al mondo. Uno strato soffice di savoiardi inzuppati nel caffè al profumo di liquore, avvolti da una vellutata crema al mascarpone e ricoperti da una spolverata di cacao amaro.
+                </p>
+            </div>
+
+            <!-- Box con Immagine e Informazioni Rapide -->
+            <div class="recipe-hero">
+                <div class="recipe-img-container">
+                    <img src="../imgs/tiramisu.jpg" alt="Tiramisù Classico">
+                </div>
+                <div class="recipe-meta-card">
+                    <h2>Scheda Ricetta</h2>
+                    <ul>
+                        <li><strong>Difficoltà:</strong> Facile</li>
+                        <li><strong>Tempo di Preparazione:</strong> 30 minuti</li>
+                        <li><strong>Tempo di Riposo:</strong> 2 ore (in frigo)</li>
+                        <li><strong>Dosi per:</strong> 6-8 persone</li>
+                        <li><strong>Categoria:</strong> Dolce al cucchiaio / Torta</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Sezione Ingredienti e Procedura -->
+            <div class="recipe-body">
+                <!-- Ingredienti -->
+                <section class="recipe-section">
+                    <h2>Ingredienti</h2>
+                    <ul class="ingredients-list">
+                        <li><strong>500g</strong> di Mascarpone fresco</li>
+                        <li><strong>300g</strong> di Biscotti Savoiardi</li>
+                        <li><strong>4</strong> Uova freschissime (a temperatura ambiente)</li>
+                        <li><strong>100g</strong> di Zucchero semolato</li>
+                        <li><strong>300ml</strong> di Caffè espresso (già zuccherato a piacere e freddo)</li>
+                        <li><strong>q.b.</strong> Cacao amaro in polvere per la superficie</li>
+                        <li><strong>1 bicchierino</strong> di Marsala o Rum (opzionale)</li>
+                    </ul>
+                </section>
+
+                <!-- Procedura -->
+                <section class="recipe-section">
+                    <h2>Procedimento</h2>
+                    <ol class="steps-list">
+                        <li>
+                            <strong>Preparazione delle uova:</strong> Separa accuratamente i tuorli dagli albumi in due ciotole capienti.
+                        </li>
+                        <li>
+                            <strong>Lavorazione della crema:</strong> Monta i tuorli insieme a metà dello zucchero (50g) con le fruste elettriche finché non diventano chiari e spumosi. Aggiungi il mascarpone poco alla volta continuando a montare a bassa velocità fino ad ottenere una crema omogenea.
+                        </li>
+                        <li>
+                            <strong>Montatura degli albumi:</strong> Pulisci molto bene le fruste e monta gli albumi a neve ferma aggiungendo il restante zucchero a metà operazione.
+                        </li>
+                        <li>
+                            <strong>Unione dei composti:</strong> Incorpora delicatamente gli albumi montati alla crema di mascarpone usando una spatola, con movimenti dal basso verso l'alto per non smontare il composto.
+                        </li>
+                        <li>
+                            <strong>Assemblaggio:</strong> Prepara il caffè (eventualmente aromatizzato con il liquore) in una pirofila bassa. Inzuppa rapidamente i savoiardi da entrambi i lati senza inzupparli troppo e disponili uno accanto all'altro sul fondo di una pirofila rettangolare.
+                        </li>
+                        <li>
+                            <strong>Stratificazione:</strong> Copri il primo strato di biscotti con metà della crema al mascarpone. Crea un secondo strato di savoiardi inzuppati disposti in senso trasversale e ricopri con la restante crema.
+                        </li>
+                        <li>
+                            <strong>Riposo e Servizio:</strong> Fai riposare il tiramisù in frigorifero per almeno 2 ore. Prima di servire, spolverizza generosamente la superficie con il cacao amaro setacciato.
+                        </li>
+                    </ol>
+                </section>
+
+                <!-- Note Finali -->
+                <section class="recipe-section notes-card">
+                    <h2>💡 Note Finali e Consigli dell'Mastro Pasticcere</h2>
+                    <ul>
+                        <li><strong>Pastorizzazione uova:</strong> Se preferisci non usare uova crude, puoi pastorizzarle montando i tuorli con uno sciroppo di acqua e zucchero scaldato a 121°C.</li>
+                        <li><strong>Conservazione:</strong> Il Tiramisù si conserva perfettamente coperto in frigorifero per un massimo di 2-3 giorni. Può anche essere congelato in monoporzioni.</li>
+                        <li><strong>Varianti:</strong> Per una versione adatta ai bambini puoi sostituire il caffè espresso con il caffè d'orzo o il latte al cacao.</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="../footer/chi_siamo.html" target="_blank">Chi Siamo</a>
+                <a href="../footer/contatti.html" target="_blank">Contatti</a>
+                <a href="../footer/termini.html" target="_blank">Termini di Servizio</a>
+                <a href="../footer/privacy.html" target="_blank">Privacy Policy</a>
+            </div>
+            <p>&copy; 2026 Pasticceria Artigianale. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
 </body>
 </html>

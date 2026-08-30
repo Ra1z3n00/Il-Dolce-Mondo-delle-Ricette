@@ -192,6 +192,135 @@ footer {
 }
 
 /* -------------------------------------------------- */
+/* STILI PAGINA DETTAGLIO RICETTA */
+/* -------------------------------------------------- */
+
+.recipe-detail {
+    background-color: #fff;
+    border: 1px solid rgb(166, 161, 161);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: #7c4c20;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.back-btn:hover {
+    color: #eec590;
+}
+
+.recipe-header h1 {
+    font-size: 2.2rem;
+    color: #5c3818;
+    margin-bottom: 0.5rem;
+}
+
+.recipe-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.recipe-hero {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.recipe-img-container {
+    flex: 1;
+    max-height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recipe-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-meta-card {
+    flex: 1;
+    background-color: #fcf9f5;
+    border: 1px solid #eec590;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.recipe-meta-card h2 {
+    font-size: 1.3rem;
+    color: #5c3818;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eec590;
+    padding-bottom: 0.3rem;
+}
+
+.recipe-meta-card ul {
+    list-style: none;
+}
+
+.recipe-meta-card li {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+.recipe-section {
+    margin-bottom: 2rem;
+}
+
+.recipe-section h2 {
+    font-size: 1.5rem;
+    color: #5c3818;
+    border-bottom: 2px solid #eec590;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.ingredients-list, .steps-list {
+    padding-left: 1.2rem;
+    line-height: 1.8;
+}
+
+.ingredients-list li {
+    margin-bottom: 0.4rem;
+}
+
+.steps-list li {
+    margin-bottom: 1rem;
+}
+
+.notes-card {
+    background-color: #fff9e6;
+    border-left: 4px solid #eec590;
+    padding: 1.2rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.notes-card ul {
+    padding-left: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Adattamento Mobile per la Scheda Ricetta */
+@media (max-width: 768px) {
+    .recipe-hero {
+        flex-direction: column;
+    }
+    .recipe-img-container {
+        height: 200px;
+    }
+}
+
+/* -------------------------------------------------- */
 /* MEDIA QUERIES (Devono stare SEMPRE in fondo al file) */
 /* -------------------------------------------------- */
 
