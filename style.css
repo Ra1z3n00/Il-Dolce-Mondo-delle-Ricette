@@ -205,7 +205,9 @@ footer {
 
 .back-btn {
     display: inline-block;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0 rem;
+    font-size: x-large;
     color: #7c4c20;
     font-weight: bold;
     text-decoration: none;
